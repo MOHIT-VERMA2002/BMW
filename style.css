@@ -342,6 +342,9 @@ iframe{
     height: 40vh;
     padding: 50px;
 }
+.signature h1{
+    text-align: center;
+}
 .controls{
     width: 100%;
     height: 80vh;
@@ -465,7 +468,7 @@ iframe{
 }
 .charging-img img{
     width: 25%;
-    margin-top: 30px;
+    margin-top: 20px;
 
 }
 .charging-img img:hover{
@@ -481,6 +484,75 @@ iframe{
     justify-content: center;
     gap: 10px;
 }
-.charging a{
-    font-size:30px ;
+
+.experience{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.experience img{
+    width: 50%;
+    margin-top: 15%;
+
+}
+.experience img:hover{
+    transform: scale(1.1);
+    transition: all .40s ease-in;
+    cursor: pointer;
+}
+.experience-info{
+    padding-top: 10%;
+}
+.experience-info button{
+    background-color: #fff;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 45px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.experience-info button:hover{
+    border: none;
+    color: #000;
+    background-color: rgb(58, 169, 243);
+    transition: all 0.42s ease-in-out;
+    transform: scale(1.1);
+}
+.individual{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.individual-img img{
+    width: 90%;
+    height: 400px;
+    padding-left: 15%;
+}
+.individual-info h1{
+    text-align: center;
+}
+.individual-img button{
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 15%;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.individual-img button:hover{
+    background-color: rgb(58, 169, 243);
+    color: #000;
+    transition: all 0.42s ease-in-out;
+    transform: scale(1.1);
+}
+.specifications{
+    width: 100%;
+    height: 200vh;
 }
