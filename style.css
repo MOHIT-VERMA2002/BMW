@@ -554,5 +554,42 @@ iframe{
 }
 .specifications{
     width: 100%;
-    height: 200vh;
+    height: 300vh;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.drive-system{
+    width: 80%;
+    padding-top: 1%;
+}
+.drive-system-info{
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 5%;
+}
+.specifications-image img{
+    width: 30%;
+    padding-left: 20px;
+    margin-left: 10%;
+}
+.footer{
+    width: 100%;
+    height: 40vh;
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.social-account{
+    width: 100%;
+    height: 20vh;
+    color: #000;
+    background-color: #fff;
+}
+
+.copy-rigth{
+    text-align: center;
 }
